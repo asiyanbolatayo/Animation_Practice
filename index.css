@@ -1,0 +1,22 @@
+.slider {
+    background-size: cover;
+    box-shadow: 20px 20px 10px gray;
+    animation: slider 10s linear infinite;
+    width: 50vw;
+    height: 75vh;
+}
+
+@keyframes slider {
+    0% {
+        background-image: url(Media/IMG-20240921-WA0022.jpg);
+    }
+    30% {
+        background-image: url(Media/IMG_0478.jpg);
+    }
+    60% {
+        background-image: url(Media/IMG_20240929_165631.jpg);
+    }
+    100% {
+        background-image: url(Media/party_500by600.jpg);
+    }
+}
